@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #ebf2f5;
+}
+
+body,
+input,
+buttonm textarea {
+  font: 600 18px Nunito, sans-serif;
+}
