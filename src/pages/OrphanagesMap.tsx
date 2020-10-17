@@ -3,27 +3,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FiPlus, FiArrowRight } from "react-icons/fi";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
-import leaflet from "leaflet";
-
-import "leaflet/dist/leaflet.css";
 
 import mapMarkerImg from "../images/map-marker.svg";
+import mapIcon from "../Util/mapIcon";
 
 import "../styles/pages/orphanages-map.css";
-
-// icone que marca o mapa
-const mapIcon = leaflet.icon({
-   iconUrl: mapMarkerImg,
-
-   iconSize: [58, 68],
-
-   //vai estar indicando qual a posição do ícone que representa o ponto no mapa
-   // qual parte do ícone está apontando no mapa
-   iconAnchor: [29, 68],
-
-   // posicionando a mensagem do popup
-   popupAnchor: [170, 2],
-});
 
 function OrphanagesMap() {
    return (
