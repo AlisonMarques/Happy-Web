@@ -5,7 +5,7 @@ import { FiPlus, FiArrowRight } from "react-icons/fi";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 
 import api from "../services/api";
-import Orphanage from "../interfaces/Orphanage";
+import OrphanageMap from "../interfaces/OrphanageMap";
 
 import mapMarkerImg from "../images/map-marker.svg";
 import mapIcon from "../Util/mapIcon";
@@ -13,7 +13,7 @@ import mapIcon from "../Util/mapIcon";
 import "../styles/pages/orphanages-map.css";
 
 function OrphanagesMap() {
-   const [orphanages, setOrphanages] = useState<Orphanage[]>([]);
+   const [orphanages, setOrphanages] = useState<OrphanageMap[]>([]);
 
    useEffect(() => {
       api.get("orphanages").then((response) => {
