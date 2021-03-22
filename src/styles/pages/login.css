@@ -1,0 +1,93 @@
+#page-login {
+   position: relative;
+   width: 1440px;
+   height: 820px;
+
+   background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+}
+
+#page-login .content-wrapper-login {
+   position: absolute;
+   width: 260px;
+   height: 402px;
+   left: 250px;
+   top: 10px;
+}
+
+#page-login .content-wrapper-login img {
+   position: absolute;
+   width: 260px;
+   height: 234px;
+   left: 330px;
+   top: 209px;
+}
+
+.content-wrapper-login .location-login {
+   position: absolute;
+   width: 161px;
+   height: 68px;
+   left: 380px;
+   top: 543px;
+
+   font-family: Nunito;
+   font-style: normal;
+   font-size: 24px;
+   line-height: 34px;
+   /* or 142% */
+
+   display: flex;
+   flex-direction: column;
+
+   text-align: center;
+
+   /* Shapes / 01 */
+
+   color: #ffffff;
+}
+
+.content-wrapper-login .location-login strong {
+   font-weight: 800;
+}
+
+.content-login {
+   position: absolute;
+   width: 520px;
+   height: 820px;
+   left: 920px;
+   top: 0px;
+
+   /* Shapes / 01 */
+
+   background: #ffffff;
+   /* Back / Lines in white */
+
+   border: 1px solid #d3e2e5;
+   box-sizing: border-box;
+}
+
+.content-login .rectangle {
+   position: absolute;
+   width: 360px;
+   height: 430px;
+   left: 1000px;
+   top: 195px;
+}
+
+.content-login .rectangle h1 {
+   position: absolute;
+   width: 162px;
+   height: 34px;
+   left: 1000px;
+   top: 195px;
+
+   font-family: Nunito;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 34px;
+   /* identical to box height, or 106% */
+
+   /* Texts / Base */
+
+   color: #5c8599;
+}
