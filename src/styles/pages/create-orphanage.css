@@ -30,7 +30,7 @@ form.create-orphanage-form fieldset {
 }
 
 form.create-orphanage-form fieldset + fieldset {
-   margin-top: 80px;
+   margin-top: 20px;
 }
 
 form.create-orphanage-form fieldset legend {
